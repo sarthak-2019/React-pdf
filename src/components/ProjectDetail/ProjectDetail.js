@@ -53,18 +53,6 @@ const styles = StyleSheet.create({
     padding: 20,
     paddingRight: 30,
   },
-  mainContainer2: {
-    width: 252,
-    height: 604,
-    borderRadius: 22,
-    border: "1 solid grey",
-    marginTop: 135,
-    display: "flex",
-    flexDirection: "column",
-    alignItems: "center",
-    justifyContent: "flexstart",
-    padding: 10,
-  },
   reportTitle2: {
     // fontFamily: "Nunito",
     fontStyle: "normal",
@@ -176,6 +164,237 @@ const styles = StyleSheet.create({
     paddingLeft: 10,
     paddingRight: 6,
     paddingTop: 1,
+  },
+  mainContainer2: {
+    width: 252,
+    height: 525,
+    borderRadius: 22,
+    border: "1 solid grey",
+    marginTop: 135,
+    display: "flex",
+    flexDirection: "column",
+    alignItems: "center",
+    justifyContent: "flexstart",
+    padding: 10,
+    paddingLeft: 23,
+    paddingRight: 24,
+  },
+  reportTitle31: {
+    // fontFamily: "Nunito",
+    fontStyle: "normal",
+    fontWeight: "600",
+    fontSize: "12",
+    color: "#2D4764",
+    marginTop: 24,
+  },
+  reportTitle32: {
+    // fontFamily: "Nunito",
+    fontStyle: "normal",
+    fontWeight: "600",
+    fontSize: "12",
+    color: "#2D4764",
+    marginTop: 8,
+  },
+  subContainer11: {
+    marginTop: 14,
+    display: "flex",
+    flexDirection: "row",
+    alignItems: "center",
+    width: 190,
+    borderBottom: "0.1 dashed #E2E2E2",
+  },
+  subContainer12: {
+    width: 9,
+    height: 9,
+    backgroundColor: "#FFCE31",
+    borderRadius: "50",
+    marginRight: 15,
+  },
+  reportTitle321: {
+    // fontFamily: "Nunito",
+    fontStyle: "normal",
+    fontWeight: "600",
+    fontSize: "16",
+    color: "#2D4764",
+    marginRight: 10,
+  },
+  reportTitle322: {
+    // fontFamily: "Nunito",
+    fontStyle: "normal",
+    fontWeight: "600",
+    fontSize: "12",
+    color: "#2D4764",
+    width: 70,
+    marginRight: 30,
+  },
+  reportTitle3221: {
+    // fontFamily: "Nunito",
+    fontStyle: "normal",
+    fontWeight: "600",
+    fontSize: "12",
+    color: "#2D4764",
+    width: 70,
+    marginRight: 10,
+  },
+  subContainer122: {
+    width: 16.87,
+    height: 38.61,
+    backgroundColor: "#FFCE31",
+  },
+  subContainer121: {
+    width: 9,
+    height: 9,
+    backgroundColor: "#DF6569",
+    borderRadius: "50",
+    marginRight: 15,
+  },
+  subContainer1221: {
+    width: 16.87,
+    height: 72,
+    backgroundColor: "#DF6569",
+  },
+  subContainer111: {
+    display: "flex",
+    flexDirection: "row",
+    alignItems: "center",
+    width: 190,
+  },
+  reportTitle311: {
+    // fontFamily: "Nunito",
+    fontStyle: "normal",
+    fontWeight: "600",
+    fontSize: "14",
+    color: "#2D4764",
+    marginTop: 20,
+  },
+  subContainer91: {
+    width: 228,
+    display: "flex",
+    flexDirection: "column",
+    alignItems: "center",
+    justifyContent: "center",
+    marginTop: 18,
+    backgroundColor: "#E8FCE8",
+    borderTopLeftRadius: 16,
+    borderTopRightRadius: 16,
+  },
+  subContainer9111: {
+    width: 228,
+    display: "flex",
+    flexDirection: "column",
+    alignItems: "center",
+    justifyContent: "center",
+    backgroundColor: "#FFCCCB",
+    borderBottomLeftRadius: 16,
+    borderBottomRightRadius: 16,
+  },
+  subContainer92: {
+    width: 9,
+    height: 9,
+    backgroundColor: "#3FB10A",
+    borderRadius: "50",
+    marginRight: 8,
+  },
+
+  subContainer93: {
+    fontStyle: "normal",
+    fontWeight: "600",
+    fontSize: "10",
+    color: "#2D4764",
+  },
+  subContainer94: {
+    fontStyle: "normal",
+    fontWeight: "600",
+    fontSize: "12",
+    color: "#2D4764",
+  },
+  subContainer95: {
+    flexDirection: "row",
+    alignItems: "center",
+    justifyContent: "space-between",
+    width: 222,
+    padding: 10,
+    paddingBottom: 10,
+  },
+  subContainer96: {
+    flexDirection: "row",
+    alignItems: "center",
+  },
+  subContainer921: {
+    width: 9,
+    height: 9,
+    backgroundColor: "#F2994A",
+    borderRadius: "50",
+    marginRight: 8,
+  },
+  subContainer922: {
+    width: 9,
+    height: 9,
+    backgroundColor: "#4D7E6D",
+    borderRadius: "50",
+    marginRight: 8,
+  },
+  subContainer923: {
+    width: 9,
+    height: 9,
+    backgroundColor: "#4D7E6D",
+    borderRadius: "50",
+    marginRight: 8,
+  },
+
+  subContainer924: {
+    width: 9,
+    height: 9,
+    backgroundColor: "#287E97",
+    borderRadius: "50",
+    marginRight: 8,
+  },
+  subContainer9112: {
+    width: 216,
+    display: "flex",
+    flexDirection: "row",
+    alignItems: "center",
+    justifyContent: "space-between",
+    marginTop: 28,
+  },
+  subContainer9241: {
+    width: 9,
+    height: 9,
+    backgroundColor: "#FFCE31",
+    borderRadius: "50",
+    marginRight: 8,
+  },
+  subContainer931: {
+    fontStyle: "normal",
+    fontWeight: "600",
+    fontSize: "14",
+    color: "#2D4764",
+  },
+  subContainer941: {
+    fontStyle: "normal",
+    fontWeight: "600",
+    fontSize: "14",
+    color: "#FFD75D",
+  },
+  subContainer9113: {
+    width: 216,
+    display: "flex",
+    flexDirection: "row",
+    alignItems: "center",
+    justifyContent: "space-between",
+    marginTop: 8,
+  },
+  subContainer932: {
+    fontStyle: "normal",
+    fontWeight: "600",
+    fontSize: "12",
+    color: "#2D4764",
+  },
+  subContainer942: {
+    fontStyle: "normal",
+    fontWeight: "600",
+    fontSize: "12",
+    color: "#2D4764",
   },
 });
 const ProjectDetail = () => {
@@ -290,6 +509,79 @@ const ProjectDetail = () => {
         <View style={styles.mainContainer2}>
           <Text style={styles.reportTitle2}>Buy</Text>
           <View style={styles.rectangle} />
+          <Text style={styles.reportTitle31}>Return on invest</Text>
+          <Text style={styles.reportTitle32}>Timeframe: 25 years</Text>
+          <View style={styles.subContainer11}>
+            <View style={styles.subContainer12} />
+            <Text style={styles.reportTitle321}>+2500€</Text>
+            <Text style={styles.reportTitle322}>Gains with solar system</Text>
+            <View style={styles.subContainer122} />
+          </View>
+          <View style={styles.subContainer111}>
+            <View style={styles.subContainer121} />
+            <Text style={styles.reportTitle321}>-1800€</Text>
+            <Text style={styles.reportTitle3221}>
+              Loss without solar system
+            </Text>
+            <View style={styles.subContainer1221} />
+          </View>
+          <Text style={styles.reportTitle311}>Detailed calculations</Text>
+          <View style={styles.subContainer91}>
+            <View style={styles.subContainer95}>
+              <View style={styles.subContainer96}>
+                <View style={styles.subContainer92} />
+                <Text style={styles.subContainer93}>Feed-in-gains</Text>
+              </View>
+              <Text style={styles.subContainer94}>+ 320€</Text>
+            </View>
+            <View style={styles.subContainer95}>
+              <View style={styles.subContainer96}>
+                <View style={styles.subContainer921} />
+                <Text style={styles.subContainer93}>
+                  Savings - basic electricity bill
+                </Text>
+              </View>
+              <Text style={styles.subContainer94}>+ 320€</Text>
+            </View>
+            <View style={styles.subContainer95}>
+              <View style={styles.subContainer96}>
+                <View style={styles.subContainer922} />
+                <Text style={styles.subContainer93}>
+                  Savings - mobility gas bill
+                </Text>
+              </View>
+              <Text style={styles.subContainer94}>+ 320€</Text>
+            </View>
+            <View style={styles.subContainer95}>
+              <View style={styles.subContainer96}>
+                <View style={styles.subContainer923} />
+                <Text style={styles.subContainer93}>
+                  Savings - heat gas bill
+                </Text>
+              </View>
+              <Text style={styles.subContainer94}>+ 320€</Text>
+            </View>
+          </View>
+          <View style={styles.subContainer9111}>
+            <View style={styles.subContainer95}>
+              <View style={styles.subContainer96}>
+                <View style={styles.subContainer924} />
+                <Text style={styles.subContainer93}>Financing cost</Text>
+              </View>
+              <Text style={styles.subContainer94}>+ 320€</Text>
+            </View>
+          </View>
+          <View style={styles.subContainer9112}>
+            <View style={styles.subContainer96}>
+              <View style={styles.subContainer9241} />
+              <Text style={styles.subContainer931}>Financing cost</Text>
+            </View>
+            <Text style={styles.subContainer941}>+ 320€</Text>
+          </View>
+          <View style={styles.subContainer9113}>
+            <Text style={styles.subContainer932}>Amortisation time</Text>
+            <Text style={styles.subContainer942}>10.5 years</Text>
+          </View>
         </View>
       </View>
     </View>
